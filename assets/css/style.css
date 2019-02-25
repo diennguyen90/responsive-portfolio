@@ -55,10 +55,14 @@ ul {
       grid-row: 3 / span 1;
       background-color:#666666;
   }
-  #wallpaper{
+  .wallpaper{
     grid-row: 2 / span 1;
     padding: 5vh 20vw 5vh 20vw;
     background-color: #EDEDED;
+    height: 80vh;
+    max-width:100%;
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg");
+    background-size: cover;
 }
 #myNameBox{
     float:left;
@@ -67,6 +71,8 @@ ul {
     /* margin-left: 75px; */
     width: 100px;
     text-decoration: none;
+    padding:14px 1px 5px 5px;
+    height:5vh;
 }
  
 /* About Me */
@@ -77,16 +83,18 @@ ul {
     background-color: #EDEDED;
 } */
 #aboutMe{
-    grid-row:2 / span 1;
     background-color: white;
     padding: 15px 25px 15px 25px;
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 5vh 1fr;
+    grid-gap:4px;
 }
   #aboutMePic{
-      height:10vh;
-      width:15vh;
+      height:12vh;
+      width:17vh;
+      padding: 15px 15px 5px 5px;
+      float:left;
   }
   p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -188,3 +196,49 @@ ul {
     height:100px;
     width:150px;
 } 
+
+/* Media Queries */
+
+/* index.html page */
+@media screen and (max-width: 980px){
+
+    #wallpaperAbout{
+        padding: 5vh 30vh 5vh 5vh;
+    }
+
+}
+@media screen and (max-width: 768px){
+    #wallpaperAbout{
+        padding: 5vh 5vh 30vh 5vh;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #wallpaperAbout{
+        padding: 5vh 5vh 5vh 5vh;
+        height: 70vh;
+    }
+
+    #myNameBox{
+        width:100%;
+        text-align:center;
+        height:3vh;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 1fr 10vh;
+    }
+    #phoneNav{
+        display:inline-block;
+        margin-left:20vh;
+        margin-right:15vh;
+    }
+    header{
+        margin-left: 0vh;
+        margin-right:0vh;
+    }
+
+}
+
+/*  */
