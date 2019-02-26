@@ -279,12 +279,10 @@ ul {
         height:12vh;
     }
 }
+
 /* 768px */
 @media screen and (max-width:768px){
 
-/* #container{
-    grid-template-rows: 8vh 1fr 8vh;
-} */
 #container{
     display: grid;
     grid-template-columns: 1fr;
@@ -339,8 +337,7 @@ header{
 @media screen and (max-width:640px){
 
     #container{
-        /* grid-template-rows: 8vh 1fr 8vh; */
-        grid-template-columns: fr;
+        grid-template-columns: 1fr;
     }
     #wallpaperPort{
         padding:2vh 4vh 8vh 4vh;
@@ -407,4 +404,56 @@ header{
         height:2vh;
         bottom:6vh;
     }
+    }
+
+    /* Contact HTML Page */
+    /* 980px */
+
+    @media screen and (max-width: 980px){
+
+        #wallpaperContact{
+            padding: 5vh 30vh 5vh 5vh;
+        }
+
+        #contactMe{
+            width:70vh;
+        }
+    
+    }
+
+    /* 768px */
+
+    @media screen and (max-width: 768px){
+
+        #wallpaperContact{
+            padding: 5vh 5vh 5vh 5vh;
+            height:100vh;
+        }
+
+        #contactMe{
+            width:113vh;
+        }
+    
+    }
+
+    @media screen and (max-width: 640 px){
+        #myNameBox{
+            width:100%;
+            text-align:center;
+            height:3vh;
+        }
+        #phoneNav{
+            display:inline-block;
+            margin-left:36vh;
+            margin-right:15vh;
+        }
+        header{
+            margin-left: 0vh;
+            margin-right: 0vh;
+            height:14vh;
+        }
+        #contactMe{
+            width:92vh;
+        }
+
     }
