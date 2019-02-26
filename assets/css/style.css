@@ -353,7 +353,7 @@ header{
     }
     .portfolioBox{
         height:22vh;
-        width:55vh;
+        width:75vw;
     }
     
     #portfolio6{
@@ -387,7 +387,7 @@ header{
     }
     #phoneNav{
         display:inline-block;
-        margin-left:20vh;
+        margin-left:32vw;
         margin-right:15vh;
     }
     header{
@@ -395,7 +395,7 @@ header{
         margin-right: 0vh;
     }
     #portfolio{
-        padding:2vh 0vh 5vh 2vh;
+        padding:0vh 0vw 5vh 4vw;
     }
     .portBar{
         font-size:large;
@@ -431,7 +431,7 @@ header{
         }
 
         #contactMe{
-            width:113vh;
+            width:80vw;
         }
     
     }
@@ -444,8 +444,8 @@ header{
         }
         #phoneNav{
             display:inline-block;
-            margin-left:36vh;
-            margin-right:15vh;
+            margin-left:26vw;
+            margin-right:15vw;
         }
         header{
             margin-left: 0vh;
@@ -453,7 +453,7 @@ header{
             height:14vh;
         }
         #contactMe{
-            width:92vh;
+            width:20vw;
         }
 
     }
